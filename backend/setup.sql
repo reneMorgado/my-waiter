@@ -1,0 +1,4 @@
+CREATE USER 'ingweb'@'localhost' IDENTIFIED BY 'Iweb1234_';
+GRANT ALL PRIVILEGES ON * . * TO 'ingweb'@'localhost';
+FLUSH PRIVILEGES;
+CREATE DATABASE INGWEB;
